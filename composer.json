@@ -1,5 +1,6 @@
 {
     "require-dev": {
-        "codacy/coverage": "dev-master"
+        "heroku/heroku-buildpack-php": "*",
+        "codacy/coverage": "master"
     }
 }
