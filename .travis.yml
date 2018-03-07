@@ -1,24 +1,19 @@
-  # .travis.yml
-  language: php
+language: php
 
-  # Do not forget to provide your CODACY_PROJECT_TOKEN as described in https://docs.travis-ci.com/user/environment-variables/#Defining-Variables-in-Repository-Settings
+php:
+- 7.0
+- 7.1
+- 7.2
 
-  php:
-    - 7.0
-    - 7.1
-    - 7.2
-    - hhvm
+before_script:
+- curl -s http://getcomposer.org/installer | php
+- php composer.phar install -n
 
-  # In case of timeouts and build failures you may want to prepend 'travis_retry' to the following commands:
-  before_script:
-    - curl -s http://getcomposer.org/installer | php
-    - php composer.phar install -n
+script:
+- php vendor/bin/codacycoverage clover build/coverage/xml
 
-  script:
-    - php vendor/bin/codacycoverage clover build/coverage/xml
-
-    deploy:
-      provider: heroku
-      api_key:
-        secure: f40a8b67-f15f-4319-8ca6-4615cc221a77
+deploy:
+  provider: heroku
+    api_key:
+      secure: f40a8b67-f15f-4319-8ca6-4615cc221a77
         app: pure-falls-59409
