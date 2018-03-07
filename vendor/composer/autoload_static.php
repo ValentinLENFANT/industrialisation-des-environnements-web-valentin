@@ -8,53 +8,126 @@ class ComposerStaticInite4e73933ee93bc91cfc585840e52cdb1
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
+        '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'T' => 
+        array (
+            'Twig\\' => 5,
+        ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Php70\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
-            'Symfony\\Component\\Process\\' => 26,
-            'Symfony\\Component\\Console\\' => 26,
+            'Symfony\\Component\\Routing\\' => 26,
+            'Symfony\\Component\\HttpKernel\\' => 29,
+            'Symfony\\Component\\HttpFoundation\\' => 33,
+            'Symfony\\Component\\EventDispatcher\\' => 34,
+            'Symfony\\Component\\Debug\\' => 24,
+            'Symfony\\Bridge\\Twig\\' => 20,
+            'Silex\\' => 6,
         ),
-        'G' => 
+        'P' => 
         array (
-            'Gitonomy\\Git\\' => 13,
+            'Psr\\Log\\' => 8,
+            'Psr\\Container\\' => 14,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
+        ),
+        'C' => 
+        array (
+            'Cowsayphp\\' => 10,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/twig/src',
+        ),
+        'Symfony\\Polyfill\\Php70\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php70',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Component\\Process\\' => 
+        'Symfony\\Component\\Routing\\' => 
         array (
-            0 => __DIR__ . '/..' . '/symfony/process',
+            0 => __DIR__ . '/..' . '/symfony/routing',
         ),
-        'Symfony\\Component\\Console\\' => 
+        'Symfony\\Component\\HttpKernel\\' => 
         array (
-            0 => __DIR__ . '/..' . '/symfony/console',
+            0 => __DIR__ . '/..' . '/symfony/http-kernel',
         ),
-        'Gitonomy\\Git\\' => 
+        'Symfony\\Component\\HttpFoundation\\' => 
         array (
-            0 => __DIR__ . '/..' . '/gitonomy/gitlib/src/Gitonomy/Git',
+            0 => __DIR__ . '/..' . '/symfony/http-foundation',
+        ),
+        'Symfony\\Component\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
+        ),
+        'Symfony\\Component\\Debug\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/debug',
+        ),
+        'Symfony\\Bridge\\Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/twig-bridge',
+        ),
+        'Silex\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silex/silex/src/Silex',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Cowsayphp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alrik11es/cowsayphp/src',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'T' => 
+        array (
+            'Twig_' => 
+            array (
+                0 => __DIR__ . '/..' . '/twig/twig/lib',
+            ),
+        ),
+        'P' => 
+        array (
+            'Pimple' => 
+            array (
+                0 => __DIR__ . '/..' . '/pimple/pimple/src',
+            ),
         ),
     );
 
     public static $classMap = array (
-        'Codacy\\Coverage\\Application' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Application.php',
-        'Codacy\\Coverage\\Command\\Clover' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Command/Clover.php',
-        'Codacy\\Coverage\\Command\\Phpunit' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Command/Phpunit.php',
-        'Codacy\\Coverage\\Parser\\CloverParser' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Parser/CloverParser.php',
-        'Codacy\\Coverage\\Parser\\IParser' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Parser/Parser.php',
-        'Codacy\\Coverage\\Parser\\PhpUnitXmlParser' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Parser/PhpUnitXmlParser.php',
-        'Codacy\\Coverage\\Parser\\XMLParser' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Parser/Parser.php',
-        'Codacy\\Coverage\\Report\\CoverageReport' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Report/CoverageReport.php',
-        'Codacy\\Coverage\\Report\\FileReport' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Report/FileReport.php',
-        'Codacy\\Coverage\\Util\\CodacyApiClient' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Util/CodacyApiClient.php',
-        'Codacy\\Coverage\\Util\\GitClient' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Util/GitClient.php',
-        'Codacy\\Coverage\\Util\\JsonProducer' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Util/JsonProducer.php',
+        'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
+        'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
+        'DivisionByZeroError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',
+        'Error' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/Error.php',
+        'ParseError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ParseError.php',
+        'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
+        'TypeError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -62,6 +135,7 @@ class ComposerStaticInite4e73933ee93bc91cfc585840e52cdb1
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInite4e73933ee93bc91cfc585840e52cdb1::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInite4e73933ee93bc91cfc585840e52cdb1::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInite4e73933ee93bc91cfc585840e52cdb1::$prefixesPsr0;
             $loader->classMap = ComposerStaticInite4e73933ee93bc91cfc585840e52cdb1::$classMap;
 
         }, null, ClassLoader::class);

@@ -6,16 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Codacy\\Coverage\\Application' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Application.php',
-    'Codacy\\Coverage\\Command\\Clover' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Command/Clover.php',
-    'Codacy\\Coverage\\Command\\Phpunit' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Command/Phpunit.php',
-    'Codacy\\Coverage\\Parser\\CloverParser' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Parser/CloverParser.php',
-    'Codacy\\Coverage\\Parser\\IParser' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Parser/Parser.php',
-    'Codacy\\Coverage\\Parser\\PhpUnitXmlParser' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Parser/PhpUnitXmlParser.php',
-    'Codacy\\Coverage\\Parser\\XMLParser' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Parser/Parser.php',
-    'Codacy\\Coverage\\Report\\CoverageReport' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Report/CoverageReport.php',
-    'Codacy\\Coverage\\Report\\FileReport' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Report/FileReport.php',
-    'Codacy\\Coverage\\Util\\CodacyApiClient' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Util/CodacyApiClient.php',
-    'Codacy\\Coverage\\Util\\GitClient' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Util/GitClient.php',
-    'Codacy\\Coverage\\Util\\JsonProducer' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Util/JsonProducer.php',
+    'ArithmeticError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
+    'AssertionError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
+    'DivisionByZeroError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',
+    'Error' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/Error.php',
+    'ParseError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/ParseError.php',
+    'SessionUpdateTimestampHandlerInterface' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
+    'TypeError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
 );
