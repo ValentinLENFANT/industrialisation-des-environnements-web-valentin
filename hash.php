@@ -20,4 +20,4 @@ $endTime = microtime(true);
 $time = $endTime - $startTime;
 
 //Display the information
-echo "Résultat trouvé ! Après " .$time. " secondes et " .$iteration. " itérations, le résultat du hash est le suivant : " .hash('sha256', $stringToHash."$iteration") . "<br>";
+echo "Résultat trouvé ! Après " .$time. " secondes et " .$iteration. " itérations, le résultat du hash est le suivant : " .hash('sha256', $stringToHash."$iteration") . "<br>"; // WPCS: XSS OK
