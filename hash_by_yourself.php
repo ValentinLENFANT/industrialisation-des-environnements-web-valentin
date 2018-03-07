@@ -2,6 +2,8 @@
 <p>You can go back to the homepage by clicking <a href="index.php">here</a></p>
 
 <?php
+
+require_once 'vendor/autoload.php';
 /**
  * Created by PhpStorm.
  * User: Valentin
