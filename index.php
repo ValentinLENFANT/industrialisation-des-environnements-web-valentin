@@ -4,8 +4,6 @@
 
 <?php
 
-require_once 'vendor/autoload.php';
-
 echo "Welcome on this example project for my thesis. <br> This is a simple homepage with some links. Nothing special.";
 
 ?>
