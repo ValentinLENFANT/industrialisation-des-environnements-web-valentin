@@ -1,6 +1,7 @@
 <body align="center">
 
 <h1>A simple page for my project</h1>
+<h2>Deployed thanks to Heroku and check by Travis</h2>
 
 <?php
 
