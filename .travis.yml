@@ -13,6 +13,5 @@ deploy:
 
  notifications:
     slack: indusenvweb:oZMeAlo4UQ4Avox7k9ktHonq
-    on_pull_requests: true
     on_success: always
     on_failure: always
