@@ -1,6 +1,6 @@
 <body align="center">
 
-<h1>A simple page for my project</h1>
+<h1 color="red">A simple page for my project</h1>
 
 <?php
 
