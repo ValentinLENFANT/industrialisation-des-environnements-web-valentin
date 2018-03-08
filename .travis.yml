@@ -1,13 +1,13 @@
 language: php
-
 php:
 - 7.0
 - 7.1
 - 7.2
+- hhvm
 
-before_script:
-- curl -s http://getcomposer.org/installer | php
-- php composer.phar install -n
+#before_script:
+#- curl -s http://getcomposer.org/installer | php
+#- php composer.phar install -n
 
 script:
 - php vendor/bin/codacycoverage clover build/coverage/xml
@@ -21,6 +21,6 @@ deploy:
  notifications:
     slack: indusenvweb:oZMeAlo4UQ4Avox7k9ktHonq
     on_pull_requests: true
-    on_commits: true
+#    on_commits: true
     on_success: always
     on_failure: always
