@@ -2,7 +2,7 @@
 
 <h1>A simple page for my project</h1>
 <h2>Deployed thanks to Heroku and check by Travis</h2>
-<h3>Also Codacy is looking at the files</h3>
+<h3>Also Codacy is looking at the files!</h3>
 
 <?php
 
