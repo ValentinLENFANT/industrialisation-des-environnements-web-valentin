@@ -1,3 +1,6 @@
 language: php
 php:
   - '7.1'
+
+script:
+web/index.php
