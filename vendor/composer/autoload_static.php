@@ -22,10 +22,13 @@ class ComposerStaticInite4e73933ee93bc91cfc585840e52cdb1
             'Symfony\\Polyfill\\Php70\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Routing\\' => 26,
+            'Symfony\\Component\\Process\\' => 26,
+            'Symfony\\Component\\Lock\\' => 23,
             'Symfony\\Component\\HttpKernel\\' => 29,
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\Debug\\' => 24,
+            'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Bridge\\Twig\\' => 20,
             'Silex\\' => 6,
         ),
@@ -37,6 +40,10 @@ class ComposerStaticInite4e73933ee93bc91cfc585840e52cdb1
         'M' => 
         array (
             'Monolog\\' => 8,
+        ),
+        'G' => 
+        array (
+            'Gitonomy\\Git\\' => 13,
         ),
         'C' => 
         array (
@@ -61,6 +68,14 @@ class ComposerStaticInite4e73933ee93bc91cfc585840e52cdb1
         array (
             0 => __DIR__ . '/..' . '/symfony/routing',
         ),
+        'Symfony\\Component\\Process\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/process',
+        ),
+        'Symfony\\Component\\Lock\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/lock',
+        ),
         'Symfony\\Component\\HttpKernel\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/http-kernel',
@@ -76,6 +91,10 @@ class ComposerStaticInite4e73933ee93bc91cfc585840e52cdb1
         'Symfony\\Component\\Debug\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/debug',
+        ),
+        'Symfony\\Component\\Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/console',
         ),
         'Symfony\\Bridge\\Twig\\' => 
         array (
@@ -96,6 +115,10 @@ class ComposerStaticInite4e73933ee93bc91cfc585840e52cdb1
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Gitonomy\\Git\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gitonomy/gitlib/src/Gitonomy/Git',
         ),
         'Cowsayphp\\' => 
         array (
@@ -123,6 +146,18 @@ class ComposerStaticInite4e73933ee93bc91cfc585840e52cdb1
     public static $classMap = array (
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
+        'Codacy\\Coverage\\Application' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Application.php',
+        'Codacy\\Coverage\\Command\\Clover' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Command/Clover.php',
+        'Codacy\\Coverage\\Command\\Phpunit' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Command/Phpunit.php',
+        'Codacy\\Coverage\\Parser\\CloverParser' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Parser/CloverParser.php',
+        'Codacy\\Coverage\\Parser\\IParser' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Parser/Parser.php',
+        'Codacy\\Coverage\\Parser\\PhpUnitXmlParser' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Parser/PhpUnitXmlParser.php',
+        'Codacy\\Coverage\\Parser\\XMLParser' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Parser/Parser.php',
+        'Codacy\\Coverage\\Report\\CoverageReport' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Report/CoverageReport.php',
+        'Codacy\\Coverage\\Report\\FileReport' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Report/FileReport.php',
+        'Codacy\\Coverage\\Util\\CodacyApiClient' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Util/CodacyApiClient.php',
+        'Codacy\\Coverage\\Util\\GitClient' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Util/GitClient.php',
+        'Codacy\\Coverage\\Util\\JsonProducer' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Util/JsonProducer.php',
         'DivisionByZeroError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',
         'Error' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/Error.php',
         'ParseError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ParseError.php',
