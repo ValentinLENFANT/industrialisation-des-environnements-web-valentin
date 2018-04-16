@@ -13,7 +13,7 @@ deploy:
     api_key: f40a8b67-f15f-4319-8ca6-4615cc221a77
     app:
         develop: pure-falls-59409
-        production: morning-waters-39329
+        master: morning-waters-39329
 
 notifications:
     slack: indusenvweb:oZMeAlo4UQ4Avox7k9ktHonq
