@@ -8,6 +8,8 @@
 
 echo "Welcome on this example project for my thesis. <br> This is a simple homepage with some links. Nothing special.";
 
+echo "test"
+
 ?>
 
 <p><a>You can click <a href="hash.php"> here</a> to try the hash example.</p>
