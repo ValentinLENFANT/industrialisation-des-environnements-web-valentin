@@ -1,10 +1,14 @@
 <body align="center">
 
-<h1 color="red">A simple page for my project</h1>
+<h1>A simple page for my project</h1>
+<h2>Deployed thanks to Heroku and check by Travis</h2>
+<h3>Also Codacy is looking at the files!</h3>
 
 <?php
 
 echo "Welcome on this example project for my thesis. <br> This is a simple homepage with some links. Nothing special.";
+
+echo "test";
 
 ?>
 

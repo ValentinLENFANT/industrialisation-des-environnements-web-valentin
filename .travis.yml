@@ -1,17 +1,18 @@
 language: php
 php:
-- 7.1
+  - '7.1'
+
+before_script:
+    - travis_retry composer self-update
 
 script:
-- php vendor/bin/codacycoverage clover build/coverage/xml
+    - php web/index.php
 
 deploy:
-  provider: heroku
-    api_key:
-      secure: f40a8b67-f15f-4319-8ca6-4615cc221a77
-        app: pure-falls-59409
+    provider: heroku
+    api_key: f40a8b67-f15f-4319-8ca6-4615cc221a77
+    app: pure-falls-59409
 
- notifications:
+notifications:
     slack: indusenvweb:oZMeAlo4UQ4Avox7k9ktHonq
-    on_success: always
-    on_failure: always
+    email: valentin.lenfant@hotmail.com
