@@ -8,7 +8,9 @@
 
 echo "Welcome on this example project for my thesis. <br> This is a simple homepage with some links. Nothing special.";
 
-echo "BONJOUR A TOUS JE SUIS UN TEST !";
+echo "BONJOUR A TOUS JE SUIS UN TEST ! <br>";
+
+echo "AU REVOIR AU REVOIR AU REVOIR ! <br> <br>";
 
 ?>
 
