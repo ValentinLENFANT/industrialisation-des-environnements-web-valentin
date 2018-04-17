@@ -1,4 +1,5 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1f0463a44afc43b7ab5c310041a48ffd)](https://www.codacy.com/app/valentin.lenfant/industrialisation-des-environnements-web-valentin?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ValentinLENFANT/industrialisation-des-environnements-web-valentin&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/ValentinLENFANT/industrialisation-des-environnements-web-valentin.svg?branch=master)](https://travis-ci.org/ValentinLENFANT/industrialisation-des-environnements-web-valentin)
 
 # Industrialisation-des-environnements-web-valentin
 
