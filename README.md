@@ -7,6 +7,20 @@
 I strongly recommend to use <strong><u>ssh</u></strong> to work on this repository. <br>
 You can also work with https.
 
+In order to clone the project, use : <br>
+`git clone git@github.com:ValentinLENFANT/industrialisation-des-environnements-web-valentin.git`
+<br> OR <br>
+`git clone https://github.com/ValentinLENFANT/industrialisation-des-environnements-web-valentin.git`
+<br>
+<br>
+Try to do some modifications and push it :
+<br>
+* On your own branch with : `git push origin branchName`
+* On the develop branch with : `git push origin develop`
+<br>
+<strong> You will not be able to directly push on master branch. You will have to do a pull request.</strong>
+<br><br>
+Below a list of the 3 main features :
 # 1)
 The first main functionnality of this application is : <br>
 <ul> To hash the string you want with the complexity* you want </ul>
